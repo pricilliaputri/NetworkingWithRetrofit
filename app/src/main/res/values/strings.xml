@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NetworkingWithRetrofit</string>
+    <string name="judul_film">Judul Film</string>
+    <string name="Date">30 April 2023</string>
+    <string name="input_title">Input Title</string>
+    <string name="input_author">Input Author</string>
+    <string name="input_image">Input Image</string>
+    <string name="input_description">Input Description</string>
+    <string name="submit">Submit</string>
+</resources>

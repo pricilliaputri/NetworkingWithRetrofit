@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewsActivity">
+
+    <EditText
+        android:id="@+id/etAddTitle"
+        android:hint="@string/input_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etAddAuthor"
+        android:hint="@string/input_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddTitle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etAddImage"
+        android:hint="Input Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddAuthor"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etAddDescription"
+        android:hint="@string/input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddImage"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/submit"/>
+
+</RelativeLayout>
